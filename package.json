@@ -1,0 +1,27 @@
+{
+  "name": "flamboyantknowndesigner",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Every new repl comes with a `.replit` and a `replit.nix` file that let you configure your repl to do just about anything in any language!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.7.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.14.0",
+    "mongoose": "^7.4.1",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "ws": "^8.13.0"
+  }
+}
